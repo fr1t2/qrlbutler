@@ -148,7 +148,7 @@ module.exports = {
   echo: {
     module: 'echo',
     channel: 'test'
-  }
+  },
   test: {
     module: 'test',  //Defines the module to use SEE main.js
     channel: 'test'  //Defines the channel in discord allowed
