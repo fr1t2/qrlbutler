@@ -16,7 +16,7 @@ const modtest = require('./modules/test.js');
 
 
 const modules = {
-    test:function(message, subcommand, config) { modtest.test(message, subcommand, config) },
+    test:function(message, subcommand, config) { modtest.ping(message, subcommand, config) },
     echo:function(message, subcommand, config) { modping.echo(message, subcommand, config) },
     ping:function(message, subcommand, config) { modping.ping(message, subcommand, config) },
     screenshot:function(message, subcommand, config) { modscreenshot.screenshot(message, subcommand, config); },
