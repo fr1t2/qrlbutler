@@ -11,7 +11,7 @@ module.exports = {
 	},
 	echo: function(message, subcommand, config) {
 		
-			message.channel.send(string);
+			message.channel.send("echo");
 
 	}
 }
