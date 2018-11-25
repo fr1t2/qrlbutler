@@ -1,4 +1,4 @@
-sconst Discord = require('discord.js');
+const Discord = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client({fetchAllMembers:true});
 
