@@ -78,3 +78,22 @@ First add your module file into the /core/modules directory
 
 Then create a scection for the module in each of the two files `function.js` and `main.js`
 
+in the main.js file you need
+
+```js
+// Load /all/ the modules.
+const test = require('./modules/test.js');
+
+const modules = {
+    test:function(message, subcommand, config) { modtest.test(message, subcommand, config) },
+```
+
+in the function.js file you need to add
+
+```js
+  test: {
+    module: 'test',
+    channel: 'test' //Defines the channel in discord allowed
+  }
+
+```

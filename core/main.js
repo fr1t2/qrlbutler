@@ -11,10 +11,12 @@ const modprice = require('./modules/price.js');
 const modscreenshot = require('./modules/screenshot.js');;
 const modotc = require('./modules/otc.js');
 const modnominations = require('./modules/nominations.js');
+const test = require('./modules/test.js');
 
 
 
 const modules = {
+    test:function(message, subcommand, config) { modtest.test(message, subcommand, config) },
     echo:function(message, subcommand, config) { modping.echo(message, subcommand, config) },
     ping:function(message, subcommand, config) { modping.ping(message, subcommand, config) },
     screenshot:function(message, subcommand, config) { modscreenshot.screenshot(message, subcommand, config); },
