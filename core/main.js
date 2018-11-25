@@ -1,4 +1,4 @@
-const Discord = require('discord.js');
+sconst Discord = require('discord.js');
 const moment = require('moment');
 const client = new Discord.Client({fetchAllMembers:true});
 
@@ -11,7 +11,7 @@ const modprice = require('./modules/price.js');
 const modscreenshot = require('./modules/screenshot.js');;
 const modotc = require('./modules/otc.js');
 const modnominations = require('./modules/nominations.js');
-const test = require('./modules/test.js');
+const modtest = require('./modules/test.js');
 
 
 
