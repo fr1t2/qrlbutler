@@ -1,4 +1,4 @@
-/**
+s/**
  * Demo Module
  * 
  * Making things easy and peasy.
@@ -7,6 +7,7 @@
 module.exports = {
 	ping: function() {
 		return "Hello";
+		message.channel.send("Pong");
 	},
 	echo: function(message, subcommand, config) {
 		if(config.reference) {
