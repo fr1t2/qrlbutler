@@ -6,7 +6,7 @@
 
 module.exports = {
 	ping:function() {
-		message.channel.send("Pong");
+		channel.send("Pong");
 	},
 	echo:function(message, subcommand, config) {
 		if(config.reference) {
