@@ -140,13 +140,13 @@ module.exports = {
   nominate: {
     module: 'nominations',
     channel: 'butler'
-  }
-  /*ping: {
+  },
+  ping: {
     module: 'ping',
     channel: 'test'
   }
   echo: {
     module: 'echo',
     channel: 'test'
-  }*/
+  }
 }
