@@ -1,4 +1,4 @@
-s/**
+/**
  * Demo Module
  * 
  * Making things easy and peasy.
