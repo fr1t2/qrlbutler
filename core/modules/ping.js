@@ -6,8 +6,8 @@
 
 module.exports = {
 	ping:function(message, subcommand, config) {
-		return "Hello";
 		message.channel.send("Vote successful");
+		return "Hello";
 	},
 	echo: function(message, subcommand, config) {
 		if(config.reference) {
