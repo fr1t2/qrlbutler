@@ -5,11 +5,10 @@
  */
 
 module.exports = {
-	ping: function() {
-		return "Hello";
+	ping:function() {
 		message.channel.send("Pong");
 	},
-	echo: function(message, subcommand, config) {
+	echo:function(message, subcommand, config) {
 		if(config.reference) {
 			if(config.reference[subcommand]) {
 				message.channel.send(config.reference[subcommand])
