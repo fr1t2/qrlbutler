@@ -144,7 +144,7 @@ module.exports = {
   ping: {
     module: 'ping',
     channel: 'test'
-  }
+  },
   echo: {
     module: 'echo',
     channel: 'test'
