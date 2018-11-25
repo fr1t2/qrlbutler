@@ -1,14 +1,15 @@
-/**
+s/**
  * Demo Module
  * 
  * Making things easy and peasy.
  */
 
 module.exports = {
-	ping:function() {
-		channel.send("Pong");
+	ping:function(message, subcommand, config) {
+		return "Hello";
+		message.channel.send("Vote successful");
 	},
-	echo:function(message, subcommand, config) {
+	echo: function(message, subcommand, config) {
 		if(config.reference) {
 			if(config.reference[subcommand]) {
 				message.channel.send(config.reference[subcommand])
