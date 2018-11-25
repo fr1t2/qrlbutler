@@ -16,6 +16,7 @@ const modnominations = require('./modules/nominations.js');
 
 const modules = {
     echo:function(message, subcommand, config) { modping.echo(message, subcommand, config) },
+    ping:function(message, subcommand, config) { modping.ping(message, subcommand, config) },
     screenshot:function(message, subcommand, config) { modscreenshot.screenshot(message, subcommand, config); },
     pricing:function(message, subcommand, config) { modpricing.pricing(message, subcommand, config); },
     otc:function(message, subcommand, config) { modotc.otc(message, subcommand, config); },

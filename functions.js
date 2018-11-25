@@ -141,4 +141,12 @@ module.exports = {
     module: 'nominations',
     channel: 'butler'
   }
+  ping: {
+    module: 'ping',
+    channel: 'test'
+  }
+  echo: {
+    module: 'echo',
+    channel: 'test'
+  }
 }

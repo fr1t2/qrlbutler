@@ -32,6 +32,8 @@ git clone https://github.com/jackalyst/qrlbutler.git
 
 Rename `env.example.json` to `env.json` and fill in the details
 
+You get the token from the discord bot screen, click copy token under the bot name.
+
 ## 4. Install requirements
 
 Get on the latest version of node (v8+) and any dependencies required for puppeteer.
@@ -67,3 +69,12 @@ node main.js production
 Make it your own. Right now all modules are built in the 'messages' event listener, so it reads the previous message and responds to it. This will be expanded for more flexibility.
 
 You can look inside of functions.js for some examples
+
+## Adding Module
+
+In making a new module, it's not quite dropin. You'll have to add it to the top of 'main.js' and in 'functions.js' beyond just the module file.
+
+First add your module file into the /core/modules directory
+
+Then create a scection for the module in each of the two files `function.js` and `main.js`
+
