@@ -26,6 +26,7 @@ module.exports = {
   cmc: {
     module: 'screenshot',
     channels: 'butler',
+    cmcapi: '', // add cmc API token here
     preload: function() {
       var url = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest?start=1&limit=1500&convert=USD&CMC_PRO_API_KEY='+config.cmcapi
 
